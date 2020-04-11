@@ -2,8 +2,6 @@ from django.test import TestCase
 
 import http.client
 
-# Create your tests here.
-
 class TestExample(TestCase):
     def setUp(self):
         self.connection = http.client.HTTPSConnection("www.reddit.com")
