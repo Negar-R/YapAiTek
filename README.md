@@ -33,3 +33,4 @@ To retrieve live articles from [News API](https://newsapi.org/) , you need an AP
 Then by using this url `http://127.0.0.1:8000/get_api_news/query` , you can get all articles about entered `query`.
 
 I wrote a simple Unit Test that pass True , if the status of request to Reddit be 200(OK).
+If you want to search in one query in Reddit and see that it's status is ok or not , you can add your query in `words` list in `YapAiTek_Assignment/News_Aggregator/tests.py`.
